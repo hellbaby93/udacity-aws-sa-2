@@ -1,0 +1,21 @@
+﻿Estimate summary
+Upfront cost,Monthly cost,Total 12 months cost,Currency
+0,8205.544074,98466.53,USD
+,,* Includes upfront cost
+
+
+Detailed Estimate
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),,Amazon EC2 ,0,2761.874074,33142.49,USD,"Tenancy (Shared Instances), Operating system (Linux), DT Inbound: Internet (1 TB per month), DT Outbound: Internet (1 TB per month), DT Intra-Region: (0 TB per month), Workload (Daily, (Workload days: Monday, Tuesday, Wednesday, Thursday, Friday, Baseline: 2, Peak: 16, Duration of peak: 8 Hr 00 Min)), Enable monitoring (disabled), Advance EC2 instance (m5.4xlarge), Pricing strategy (), Snapshot Frequency (No snapshot storage)"
+My Estimate,US East (N. Virginia),,Amazon RDS for PostgreSQL,0,4572.78,54873.36,USD,"Storage volume (General Purpose SSD (gp2)), Storage amount (500 GB), Nodes (2), Instance Type (db.m5.4xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment Option (Multi-AZ), Pricing Model (OnDemand), Additional backup storage (100 GB)"
+My Estimate,US East (N. Virginia),,S3 Standard,0,2.3,27.60,USD,S3 Standard storage (100 GB per month)
+My Estimate,US East (N. Virginia),,Data Transfer,0,92.16,1105.92,USD,"DT Inbound: Internet (1 TB per month), DT Outbound: Internet (1 TB per month)"
+My Estimate,US East (N. Virginia),,Network Address Translation (NAT) Gateway,0,157.86,1894.32,USD,Number of NAT Gateways (2)
+My Estimate,US East (N. Virginia),,Amazon Elastic IP,0,10,120.00,USD,"Number of EC2 instances (16), Number of EIPs per instance (1), Number of EIP remaps (100)"
+My Estimate,US East (N. Virginia),,Application Load Balancer,0,500.05,6000.60,USD,Number of Application Load Balancers (2)
+My Estimate,US East (N. Virginia),,Amazon CloudFront,0,108.52,1302.24,USD,"Data transfer out to internet (1 TB per month), Data transfer out to origin (1 TB per month), Number of requests (HTTPS) (1000000 per month)"
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
